@@ -780,8 +780,8 @@ class Application(Gtk.Application):
         self.builder.add_from_file(glade_file)
 
         self.main_window = self.builder.get_object("main_window")
-        self.main_window.set_title(_("Software Manager"))
-        self.main_window.set_icon_name("mintinstall")
+        self.main_window.set_title(_("Winnux Store"))
+        self.main_window.set_icon_name("winnux-store")
         self.main_window.connect("delete_event", self.close_application)
         self.main_window.connect("key-press-event", self.on_keypress)
         self.main_window.connect("button-press-event", self.on_buttonpress)
