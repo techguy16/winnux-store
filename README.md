@@ -1,4 +1,4 @@
-# Mintinstall
+# winnux store
 
 Software Manager for Linux Mint.
 
