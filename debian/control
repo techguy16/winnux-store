@@ -1,11 +1,11 @@
-Source: mintinstall
+Source: winnux-store
 Section: admin
 Priority: optional
-Maintainer: Linux Mint <root@linuxmint.com>
+Maintainer: techguy16
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 1.0.0
 
-Package: mintinstall
+Package: winnux-store
 Architecture: all
 Pre-Depends: ca-certificates (>= 20210101)
 Depends: python3 (>= 3.4),
@@ -24,5 +24,5 @@ Depends: python3 (>= 3.4),
          mint-common (>= 2),
          app-install-data
 Recommends: gir1.2-flatpak-1.0, flatpak, xdg-desktop-portal-gtk
-Description: Software Manager
- A software manager to easily install new applications.
+Description: Winnux Store
+ Winnux Store is an app store from the Winnux Project.
